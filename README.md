@@ -4,11 +4,61 @@ Setting up development environment
 
 Windows operating system setup
 
-#### Task1 setting up operating system
+#### Task 1 setting up Windows operating system
+
+1. Download Windows 11 Installation Media<br><br>
+   
+   1. Visit the Website at https://www.microsoft.com/software-download/windows11: <br><br>
+
+   2. Go to Windows 11 Download.
+   Create Installation Media:
+
+        - Click "Download Now" under the "Create Windows 11 Installation Media" section.
+        - Run the downloaded tool.
+        - Follow the instructions to create a bootable USB drive.<br><br>
+  
+2. Install Windows 11<br><br>
+   1. Boot from USB:<br><br>
+
+    - Insert the bootable USB drive into your computer.
+    - Restart the computer and enter the BIOS/UEFI setup (usually by pressing a key like F2, F12, Del, or Esc during startup).
+    - Set the USB drive as the primary boot device.
+    - Save changes and exit BIOS/UEFI.
+    - Boot from the USB drive.<br><br>
+   2. Follow Installation Steps:<br><br>
+
+   - Choose your language, time, and keyboard preferences.
+   - Click "Install Now."
+   - Enter the product key if prompted.
+   - Select the installation type (Custom: Install Windows only).
+   - Choose the partition where you want to install Windows.
+   - Proceed with the installation.<br><br>
+  
+3. Initial Windows 11 Setup <br><br>
+    - Complete the Out-of-Box Experience (OOBE):
+    - Follow the on-screen instructions to set up Windows 11.
+    - Connect to a network.
+    - Sign in with a Microsoft account or create a local account.
+    - Configure privacy settings.<br><br>
+  
+4. Install Essential Updates and Drivers<br><br>
+   1. Update Windows:<br><br>
+
+    - Open Settings > Windows Update.
+    - Click Check for updates and install all available updates.<br><br>
+   2. Install Drivers:<br><br>
+
+    - Go to your computer manufacturer's website and download the latest drivers for your hardware.
+    - Install these drivers to ensure all hardware components work correctly.<br><br>
+5. Install Necessary Software<br><br>
+- Install a Web Browser (if you prefer an alternative to Edge):
+
+- Download and install Google Chrome, Firefox, or another preferred browser.
+---
 
 Visual studio code setup
 
-#### Task2 setting up Visual studio code IDE on windows
+#### Task 2 setting up Visual studio code IDE on windows
 
 1. Open any web browser, such as Google Chrome or Microsoft Edge, and go to the Official Website of Visual Studio Code at this [vscode](https://code.visualstudio.com/docs/?dv=win) <br><br>
 
@@ -32,7 +82,7 @@ Visual studio code setup
 ---
 Version control using git and github
 
-#### Task 2 setting up version control using git and github on windows
+#### Task 3 setting up version control using git and github on windows
 
 1. Go to [git](https://git-scm.com/download/win) <br><br>
 
@@ -103,7 +153,7 @@ Version control using git and github
 ---
 Python installation
 
-#### Task 3 Steps to downloading and installing python 
+#### Task 4 Steps to downloading and installing python 
 
 1.  Navigate to the Python download page:
 
@@ -153,7 +203,7 @@ Python installation
 
 PIP package manager for python
 
-#### Task 4 steps for setting up the pip package manager for python
+#### Task 5 steps for setting up the pip package manager for python
 
 pip is a package manager for python that can be installed using get-pip.py
 
@@ -180,7 +230,7 @@ pip is a package manager for python that can be installed using get-pip.py
 ---
 MySQL Database
 
-#### Task 5 Steps to download, configure, and install MySQL on Windows
+#### Task 6 Steps to download, configure, and install MySQL on Windows
 
 1. Open a web browser and navigate to https://dev.mysql.com/downloads/windows/installer/5.7.html.<br><br>
 
@@ -241,7 +291,7 @@ MySQL Database
 
 Extensions and Plugins
 
-#### Task 6 Steps to install the Python extension in Visual Studio Code (VS Code) to enhance Python development:
+#### Task 7 Steps to install the Python extension in Visual Studio Code (VS Code) to enhance Python development:
 
 1. Open Visual Studio Code:
    Launch VS Code on your computer<br><br>
@@ -269,3 +319,4 @@ Extensions and Plugins
 8. Reload or Restart VS Code (if necessary):
    
    Sometimes, you might need to reload the VS Code window for the extension to be fully activated.       Click the reload button if prompted, or restart VS Code manually.<br><br>
+---
