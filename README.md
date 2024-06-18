@@ -81,14 +81,14 @@ Setting up development environment
 
 17. Once clicked, you will be taken to a new page where you will need to enter a name for the repository,once entered, click on create repository, which will send you to a new page displaying your created repository<br><br>
 
-18. For you to now link the local repository to your newly created remote repository,first go to git bash<br><br>
+18. For you to now link the local repository to your newly created remote repository,first go to git bash<br>
 
 19. since this is the first time you want to link a new local repository to a remote repository you will enter the command <br><br>
 
 	1. git config --global user.name: "your github username"
 	2. git config --global user.email: "your github email"
 
-*N/B you may be prompted to enter your password to verify your identity if it i the firs time your are linking your local repository to your remote repository, if so, just enter your credentials i.e your username and password on the github logi popup that appears*
+*N/B you may be prompted to enter your password to verify your identity if it is the first time your are linking your local repository to your remote repository, if so, just enter your credentials i.e your username and password on the github logi popup that appears*
 
 *Once you have logged in and git hub has verfied your login details, check on git bash to confirm login status, if ok proceed with the commands below*
 
