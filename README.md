@@ -20,40 +20,40 @@ Windows operating system setup
 2. Install Windows 11<br><br>
    1. Boot from USB:<br><br>
 
-    - Insert the bootable USB drive into your computer.
-    - Restart the computer and enter the BIOS/UEFI setup (usually by pressing a key like F2, F12, Del, or Esc during startup).
-    - Set the USB drive as the primary boot device.
-    - Save changes and exit BIOS/UEFI.
-    - Boot from the USB drive.<br><br>
+       - Insert the bootable USB drive into your computer.
+       - Restart the computer and enter the BIOS/UEFI setup (usually by pressing a key like F2, F12, Del, or Esc during startup).
+       - Set the USB drive as the primary boot device.
+       - Save changes and exit BIOS/UEFI.
+       - Boot from the USB drive.<br><br>
    2. Follow Installation Steps:<br><br>
 
-   - Choose your language, time, and keyboard preferences.
-   - Click "Install Now."
-   - Enter the product key if prompted.
-   - Select the installation type (Custom: Install Windows only).
-   - Choose the partition where you want to install Windows.
-   - Proceed with the installation.<br><br>
+      - Choose your language, time, and keyboard preferences.
+      - Click "Install Now."
+      - Enter the product key if prompted.
+      - Select the installation type (Custom: Install Windows only).
+      - Choose the partition where you want to install Windows.
+      - Proceed with the installation.<br><br>
   
 3. Initial Windows 11 Setup <br><br>
-    - Complete the Out-of-Box Experience (OOBE):
-    - Follow the on-screen instructions to set up Windows 11.
-    - Connect to a network.
-    - Sign in with a Microsoft account or create a local account.
-    - Configure privacy settings.<br><br>
+       - Complete the Out-of-Box Experience (OOBE):
+       - Follow the on-screen instructions to set up Windows 11.
+       - Connect to a network.
+       - Sign in with a Microsoft account or create a local account.
+       - Configure privacy settings.<br><br>
   
 4. Install Essential Updates and Drivers<br><br>
    1. Update Windows:<br><br>
 
-    - Open Settings > Windows Update.
-    - Click Check for updates and install all available updates.<br><br>
+       - Open Settings > Windows Update.
+       - Click Check for updates and install all available updates.<br><br>
    2. Install Drivers:<br><br>
 
-    - Go to your computer manufacturer's website and download the latest drivers for your hardware.
-    - Install these drivers to ensure all hardware components work correctly.<br><br>
+       - Go to your computer manufacturer's website and download the latest drivers for your hardware.
+       - Install these drivers to ensure all hardware components work correctly.<br><br>
 5. Install Necessary Software<br><br>
-- Install a Web Browser (if you prefer an alternative to Edge):
+      - Install a Web Browser (if you prefer an alternative to Edge):
 
-- Download and install Google Chrome, Firefox, or another preferred browser.
+      - Download and install Google Chrome, Firefox, or another preferred browser.
 ---
 
 Visual studio code setup
@@ -100,28 +100,28 @@ Version control using git and github
 
 1. first the new repository will be initialized in a new directory. the  command below will be used to make a new directory <br><br>
 
-	- mkdir test <span style="color:red">this command makes a new directory or folder into which a new repository will be initialized </span> <br><br>
+   	- mkdir test <span style="color:red">this command makes a new directory or folder into which a new repository will be initialized </span> <br><br>
 
-	- cd test <span style="color:red">this command navigates inside the directory</span><br><br>
+   	- cd test <span style="color:red">this command navigates inside the directory</span><br><br>
 
     <div style="width:100vw; height:8vh; border:1px solid black;background-color:#505050; color:white; ">
     C:\ mkdir test <br> C:\ cd test
      </div><br>
 
 
-8. Once inside the directory use the command git init (this command initiates a new repository)
+2. Once inside the directory use the command git init (this command initiates a new repository)
     <br>
     <div style="width:100vw; height:8vh; border:1px solid black;background-color:#505050; color:white; display:flex; justify-content:center; align-items:center;">
      git init
      </div><br>
 
-9. Navigate / go to the folder where "test" is created and create a text document named "demo." Open "demo" and put any content, like "Hello powerlearn." Save and close the file.<br><br>
+3. Navigate / go to the folder where "test" is created and create a text document named "demo." Open "demo" and put any content, like "Hello powerlearn." Save and close the file.<br><br>
 
-10. in git bash enter the command <span style="color:red">"git status"</span> to check the status:<br><br>
+4.  in git bash enter the command <span style="color:red">"git status"</span> to check the status:<br><br>
 
-11. Add the "demo" to the current directory using the following command: <span style="color:red">"git add demo.txt"</span><br><br>
+5.  Add the "demo" to the current directory using the following command: <span style="color:red">"git add demo.txt"</span><br><br>
 
-12. Next, make a commit using the following command: <span style="color:red">git commit -m "committing a new file"</span><br>
+6.  Next, make a commit using the following command: <span style="color:red">git commit -m "committing a new file"</span><br>
 	
 ##### To link the local repository to a remote repository, you need to open a github account and create a remote repository, to do this follow the steps below
 
@@ -169,8 +169,8 @@ Python installation
 
 4. Open the installer:
 
-	- Navigate to your "Downloads" folder.
-	- Double-click on `python-3.12.4.exe` to start the installer.<br><br>
+   	- Navigate to your "Downloads" folder.
+   	- Double-click on `python-3.12.4.exe` to start the installer.<br><br>
 
 5. Installer window - Add to PATH:
 
@@ -242,9 +242,9 @@ MySQL Database
 
 3. Run the MySQL Installer:
 	
-	- Once the download is complete, navigate to the location where the installer file (mysql-		installer-community-<version>.msi) is saved.
+   	- Once the download is complete, navigate to the location where the installer file (mysql-		installer-community-<version>.msi) is saved.
 
-	- Double-click on the installer file to run it.<br><br>
+   	- Double-click on the installer file to run it.<br><br>
 
 4. Choose Setup Type:
 
@@ -261,8 +261,8 @@ MySQL Database
 
 7. Installation:
 
-	- Click "Execute" to start the installation of the selected products. Wait for the installation to complete. 
-	- Click "Next" when done.<br><br>
+   	- Click "Execute" to start the installation of the selected products. Wait for the installation to complete. 
+   	- Click "Next" when done.<br><br>
 
 8. Product Configuration:
 
@@ -270,10 +270,10 @@ MySQL Database
 
 9. MySQL Server Configuration:
 
-	- Choose the configuration type (Standalone MySQL Server or InnoDB Cluster).
-	- Set the MySQL root password and optionally create additional user accounts.
-	- Configure other settings such as server name, port number, and MySQL as a Windows Service.
-	- Click "Next" to proceed through each configuration step.<br><br>
+   	- Choose the configuration type (Standalone MySQL Server or InnoDB Cluster).
+   	- Set the MySQL root password and optionally create additional user accounts.
+   	- Configure other settings such as server name, port number, and MySQL as a Windows Service.
+   	- Click "Next" to proceed through each configuration step.<br><br>
 
 10. Apply Configuration:
 
@@ -312,9 +312,9 @@ Extensions and Plugins
    Once the installation is complete, you should see the Python extension listed under "Installed"      extensions.<br><br>
 
 7. Configure Python Interpreter:
-   - Open the Command Palette by pressing Ctrl+Shift+P.
-   - Type "Python: Select Interpreter" and select it.
-   - Choose the Python interpreter you want to use from the list.<br><br>
+      - Open the Command Palette by pressing Ctrl+Shift+P.
+      - Type "Python: Select Interpreter" and select it.
+      - Choose the Python interpreter you want to use from the list.<br><br>
 
 8. Reload or Restart VS Code (if necessary):
    
