@@ -1,54 +1,99 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vbnbTt5m)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15293194&assignment_repo_type=AssignmentRepo)
-# Dev_Setup
-Setup Development Environment
+Assignment DEV_SET UP
 
-#Assignment: Setting Up Your Developer Environment
+Setting up development environment
 
-#Objective:
-This assignment aims to familiarize you with the tools and configurations necessary to set up an efficient developer environment for software engineering projects. Completing this assignment will give you the skills required to set up a robust and productive workspace conducive to coding, debugging, version control, and collaboration.
 
-#Tasks:
+#### Task1 setting up operating system
 
-1. Select Your Operating System (OS):
-   Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
+#### Task2 setting up Visual studio code IDE on windows
 
-2. Install a Text Editor or Integrated Development Environment (IDE):
-   Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
-3. Set Up Version Control System:
-   Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+1. Open any web browser, such as Google Chrome or Microsoft Edge, and go to the Official Website of Visual Studio Code at this [vscode](https://code.visualstudio.com/docs/?dv=win) <br><br>
 
-4. Install Necessary Programming Languages and Runtimes:
-  Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+2. Click the “Download” button on the website to initiate the download of the Visual Studio Code application, on the next page click on the windows download icon, this should start the download.<br><br>
 
-5. Install Package Managers:
-   If applicable, install package managers like pip (Python).
+3. Once the download is complete, the Visual Studio Code icon will appear in your downloads folder.<br><br>
 
-6. Configure a Database (MySQL):
-   Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+4. Double-click the installer icon to begin the installation process of Visual Studio Code.<br><br>
 
-7. Set Up Development Environments and Virtualization (Optional):
-   Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
+5. When the installer opens, you will need to accept the terms and conditions of Visual Studio Code. Select "I accept the agreement" and then click the Next button.<br><br>
 
-8. Explore Extensions and Plugins:
-   Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+6. Choose the installation location for Visual Studio Code. Browse to the desired location and then click Next.<br><br>
 
-9. Document Your Setup:
-    Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+7. To start the installation setup, click the Install button.<br><br>
 
-#Deliverables:
-- Document detailing the setup process with step-by-step instructions and screenshots where necessary.
-- A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
-- A reflection on the challenges faced during setup and strategies employed to overcome them.
+8. After clicking Install, the installation process will take about one minute to complete.<br><br>
 
-#Submission:
-Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
+9.  Once the installation is finished, a window will appear. Check the "Launch Visual Studio Code" checkbox and then click Finish.<br><br>
 
-#Evaluation Criteria:**
-- Completeness and accuracy of setup documentation.
-- Effectiveness of version control implementation.
-- Appropriateness of tools selected for the project requirements.
-- Clarity of reflection on challenges and solutions encountered.
-- Adherence to submission guidelines and deadlines.
+10. Following the previous step, the Visual Studio Code window will open successfully.
+---
 
-Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+#### Task 2 setting up version control using git and github on windows
+
+1. Go to [git](https://git-scm.com/download/win) <br><br>
+
+2. Download the latest version of Git and choose the windows 64/32 bit version. <br><br>
+
+3. After the file is downloaded, install it in the system. <br><br>
+
+4. Once installed, select Launch the Git Bash, then click on finish. <br><br>
+
+5. Once git bash is launched type the command git <span style="color:red">git --version </span> to check the installation <br><br>
+
+6. For any help, use the command: <span style="color:red">git config --help </span> <br>
+
+##### The next step is to initialize a new repository
+
+1. first the new repository will be initialized in a new directory. the  command below will be used to make a new directory <br><br>
+
+	i. mkdir test <span style="color:red">this command makes a new directory or folder into which a new repository will be initialized </span> <br><br>
+
+	ii. cd test <span style="color:red">this command navigates inside the directory</span><br><br>
+
+    <div style="width:100vw; height:8vh; border:1px solid black;background-color:#505050; color:white; ">
+    C:\ mkdir test <br> C:\ cd test
+     </div><br>
+
+
+8. Once inside the directory use the command git init (this command initiates a new repository)
+    <br>
+    <div style="width:100vw; height:8vh; border:1px solid black;background-color:#505050; color:white; display:flex; justify-content:center; align-items:center;">
+     git init
+     </div><br>
+
+9. Navigate / go to the folder where "test" is created and create a text document named "demo." Open "demo" and put any content, like "Hello powerlearn." Save and close the file.<br><br>
+
+10. in git bash enter the command <span style="color:red">"git status"</span> to check the status:<br><br>
+
+11. Add the "demo" to the current directory using the following command: <span style="color:red">"git add demo.txt"</span><br><br>
+
+12. Next, make a commit using the following command: <span style="color:red">git commit -m "committing a new file"</span><br>
+	
+##### To link the local repository to a remote repository, you need to open a github account and create a remote repository, to do this follow the steps below
+
+13. Go to your browser and paste the link [github](https://github.com/)<br><br>
+
+14. To get started you'll need to create a free personal account on GitHub.com and verify your email address. follow the prompts to register for an account and create a password<br><br>
+
+15. A verification email will be sent to your email address with the necessary login details for you to log in to your github account.<br><br>
+
+16. Once logged in you can create a new repository by first clicking on Repositories (this will take you to the repository page). You can then click on the new button on the repository page, this will create a new repository <br><br>
+
+17. Once clicked, you will be taken to a new page where you will need to enter a name for the repository,once entered, click on create repository, which will send you to a new page displaying your created repository<br><br>
+
+18. For you to now link the local repository to your newly created remote repository,first go to git bash<br><br>
+
+19. since this is the first time you want to link a new local repository to a remote repository you will enter the command <br><br>
+
+	1. git config --global user.name: "your github username"
+	2. git config --global user.email: "your github email"
+
+*N/B you may be prompted to enter your password to verify your identity if it i the firs time your are linking your local repository to your remote repository, if so, just enter your credentials i.e your username and password on the github logi popup that appears*
+
+*Once you have logged in and git hub has verfied your login details, check on git bash to confirm login status, if ok proceed with the commands below*
+
+	git remote add origin https://github.com/"your user name"/"your repository".git
+	git push -u origin main
+
+20. once done you should see an updated version of your local repository appearing in your remote repository in your github account (this is your local repository data and or files uploaded to your remote github account)
+---
